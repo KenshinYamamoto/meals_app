@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import './category_meals_screen.dart';
 import './categories_screen.dart';
 
 void main() => runApp(MyApp());
@@ -36,7 +37,17 @@ class MyApp extends StatelessWidget {
               fontWeight: FontWeight.bold,
             )),
       ),
-      home: CategoriesScreen(),
+      // home: CategoriesScreen(),
+      initialRoute: '/', // initial is /
+      routes: {
+        // シンプルな「/」はホームを指す
+        '/': (ctx) => CategoriesScreen(),
+
+        // category_itemのTapされたらCategoryMealsScreenに遷移します。
+        // ここで、コンストラクタに値を入れる必要はありません
+        // CategoryMealsScreenに記載されているstatic constの値
+        CategoryMealsScreen.routeName: (ctx) => CategoryMealsScreen(),
+      },
     );
   }
 }
