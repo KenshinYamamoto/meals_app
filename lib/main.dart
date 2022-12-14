@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import './screens/category_meals_screen.dart';
 import './screens/categories_screen.dart';
 import './screens/meal_detail_screen.dart';
+import './screens/tabs_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -42,7 +43,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/', // initial is /
       routes: {
         // シンプルな「/」はホームを指す
-        '/': (ctx) => CategoriesScreen(),
+        // '/': (ctx) => CategoriesScreen(),
+        '/': (ctx) => TabsScreen(),
 
         // category_itemのTapされたらCategoryMealsScreenに遷移します。
         // ここで、コンストラクタに値を入れる必要はありません
