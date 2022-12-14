@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import './screens/category_meals_screen.dart';
 import './screens/categories_screen.dart';
+import './screens/meal_detail_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -47,6 +48,23 @@ class MyApp extends StatelessWidget {
         // ここで、コンストラクタに値を入れる必要はありません
         // CategoryMealsScreenに記載されているstatic constの値
         CategoryMealsScreen.routeName: (ctx) => CategoryMealsScreen(),
+        MealDetailScreen.routeName: (ctx) => MealDetailScreen(),
+      },
+      // routesにヒットしなかったらこっちの関数実行
+      // onGenerateRoute: (settings) {
+      //   print(settings.name);
+      //   return MaterialPageRoute(
+      //     builder: (ctx) => CategoriesScreen(),
+      //   );
+      // },
+
+      // Flutterが全ての手段を用いても画面の構築に失敗した場合この関数を実行
+      // ここに、「そのページは見つかりません」みたいなページを用意すれば良い
+      onUnknownRoute: (settings) {
+        print(settings.name);
+        return MaterialPageRoute(
+          builder: (ctx) => CategoriesScreen(),
+        );
       },
     );
   }
