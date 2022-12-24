@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import './dummy_data.dart';
-import './category_item.dart';
+import '../dummy_data.dart';
+import '../widgets/category_item.dart';
 
 // カテゴリページ(初期ページとして)に出力される画面
 class CategoriesScreen extends StatelessWidget {

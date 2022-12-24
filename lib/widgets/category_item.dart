@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import './category_meals_screen.dart';
+import '../screens/category_meals_screen.dart';
 
 // titleとcolorを受け取って1つ1つのitemを作る
 class CategoryItem extends StatelessWidget {
