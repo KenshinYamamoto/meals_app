@@ -5,10 +5,10 @@ Flutterへの知識を更に深める為に作成したアプリケーション
 
 ## デモ
 
-<img src='assets/images/ExplanationPicture1.png' height=200>
-<img src='assets/images/ExplanationPicture2.png' height=200>
-<img src='assets/images/ExplanationPicture3.png' height=200>
-<img src='assets/images/ExplanationPicture4.png' height=200>
+<img src='assets/images/ExplanationPicture1.png' height=500>
+<img src='assets/images/ExplanationPicture2.png' height=500>
+<img src='assets/images/ExplanationPicture3.png' height=500>
+<img src='assets/images/ExplanationPicture4.png' height=500>
 
 - カテゴリ別にレシピを表示させ、お気に入り機能等を実装
 
