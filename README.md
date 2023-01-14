@@ -1,16 +1,18 @@
-# meals_app
+# レシピ管理アプリケーション
 
-A new Flutter project.
+Flutterへの知識を更に深める為に作成したアプリケーション
+ページ遷移を中心に実装した
 
-## Getting Started
+## デモ
 
-This project is a starting point for a Flutter application.
+<img src='assets/images/ExplanationPicture1.png' height=200>
+<img src='assets/images/ExplanationPicture2.png' height=200>
+<img src='assets/images/ExplanationPicture3.png' height=200>
+<img src='assets/images/ExplanationPicture4.png' height=200>
 
-A few resources to get you started if this is your first Flutter project:
+- カテゴリ別にレシピを表示させ、お気に入り機能等を実装
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 学んだこと
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- ページ遷移方法
+- DrawerウィジェットやBottomNavigationBarウィジェットの使用方法
